@@ -53,6 +53,7 @@ export default function Contact() {
       
     } finally {
       setLoading(false);
+      setFormData({ name: "", email: "", message: "" });
     }
   }
 
