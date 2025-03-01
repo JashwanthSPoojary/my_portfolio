@@ -53,6 +53,7 @@ export default function Contact() {
       
     } finally {
       setLoading(false);
+      setFormData({name:"",email:"",message:""})
     }
   }
 
@@ -121,6 +122,7 @@ export default function Contact() {
             <input
               type="text"
               name="name"
+              value={formData.name}
               onChange={handleChange}
               placeholder="Your Name"
               className="w-full p-3 rounded-md bg-transparent border border-gray-700 focus:border-blue-500 text-white placeholder-gray-400"
@@ -128,6 +130,7 @@ export default function Contact() {
             <input
               type="email"
               name="email"
+              value={formData.email}
               onChange={handleChange}
               placeholder="Your Email"
               className="w-full p-3 rounded-md bg-transparent border border-gray-700 focus:border-blue-500 text-white placeholder-gray-400"
@@ -135,6 +138,7 @@ export default function Contact() {
             <textarea
               placeholder="Your Message"
               name="message"
+              value={formData.message}
               onChange={handleChange}
               className="w-full p-3 rounded-md bg-transparent border border-gray-700 focus:border-blue-500 text-white placeholder-gray-400 h-32"
             ></textarea>
