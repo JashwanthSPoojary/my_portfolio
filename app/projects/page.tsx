@@ -20,7 +20,7 @@ const projects = [
       "Zustand",
     ],
     githubUrl: "https://github.com/JashwanthSPoojary/my_buzznet",
-    liveUrl: "https://buzznet.jashwanth.me",
+    liveUrl: "https://buzznet.me",
   },
   {
     id: 2,
