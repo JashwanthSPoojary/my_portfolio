@@ -47,16 +47,6 @@ const personalProjects = [
     githubUrl: "https://github.com/JashwanthSPoojary/video-annotation-platform",
     liveUrl: "https://videoano.jashwanth.me",
   },
-  {
-    id: 6,
-    title: "Full stack TODO application",
-    description:
-      "Built using the next js , has a backend does all the crud operations stores the todos in the mongoDB",
-    tags: ["Next JS", "MongoDB"],
-    githubUrl:
-      "https://github.com/JashwanthSPoojary/Full-Stack-Next-JS-TODO-List",
-    liveUrl: "https://full-stack-next-js-todo-list.vercel.app/",
-  },
 ];
 
 const practiceProjects = [
@@ -77,6 +67,15 @@ const practiceProjects = [
     tags: ["MERN", "Stripe", "JWT"],
     githubUrl: "https://github.com/JashwanthSPoojary/food-web",
     liveUrl: "https://food-web-frontend-p745.onrender.com",
+  },{
+    id: 6,
+    title: "Full stack TODO application",
+    description:
+      "Built using the next js , has a backend does all the crud operations stores the todos in the mongoDB",
+    tags: ["Next JS", "MongoDB"],
+    githubUrl:
+      "https://github.com/JashwanthSPoojary/Full-Stack-Next-JS-TODO-List",
+    liveUrl: "https://full-stack-next-js-todo-list.vercel.app/",
   },
 ];
 
