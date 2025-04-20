@@ -166,6 +166,7 @@ export default function Projects() {
               </Link>
               <Link
                 href={project.liveUrl}
+                target="_blank"
                 className="flex items-center gap-2 text-blue-400 hover:text-blue-300 transition"
               >
                 <ExternalLink size={18} />
@@ -235,6 +236,7 @@ export default function Projects() {
               </Link>
               <Link
                 href={project.liveUrl}
+                target="_blank"
                 className="flex items-center gap-2 text-blue-400 hover:text-blue-300 transition"
               >
                 <ExternalLink size={18} />
