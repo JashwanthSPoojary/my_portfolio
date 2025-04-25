@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import Profile from "@/public/linkdin profile.jpeg";
-import { Menu, X, Home, Briefcase, Mail, User, Code, Globe } from "lucide-react";
+import { Menu, X, Home, Briefcase, Mail, Twitter, Code, Linkedin ,FileText } from "lucide-react";
 
 
 export default function Sidebar() {
@@ -75,18 +75,23 @@ export default function Sidebar() {
               <h3 className="text-xs font-medium text-gray-400 mb-3 uppercase">Socials</h3>
               <ul className="space-y-2">
                 <li>
-                  <Link href="https://x.com/JashwantPoojary" className="flex items-center gap-3 text-gray-300 hover:text-white transition">
-                    <Globe size={18} color="blue" /> Twitter / X
+                  <Link href="https://x.com/JashwantPoojary" target="_blank" className="flex items-center gap-3 text-gray-300 hover:text-white transition">
+                    <Twitter size={18} color="blue" /> Twitter / X
                   </Link>
                 </li>
                 <li>
-                  <Link href="https://www.linkedin.com/in/jashwanth-s-poojary" className="flex items-center gap-3 text-gray-300 hover:text-white transition">
-                    <User size={18} color="blue" /> LinkedIn
+                  <Link href="https://www.linkedin.com/in/jashwanth-s-poojary" target="_blank" className="flex items-center gap-3 text-gray-300 hover:text-white transition">
+                    <Linkedin size={18} color="blue" /> LinkedIn
                   </Link>
                 </li>
                 <li>
-                  <Link href="https://github.com/JashwanthSPoojary" className="flex items-center gap-3 text-gray-300 hover:text-white transition">
+                  <Link href="https://github.com/JashwanthSPoojary" target="_blank" className="flex items-center gap-3 text-gray-300 hover:text-white transition">
                     <Code size={18} color="blue" /> GitHub
+                  </Link>
+                </li>
+                <li>
+                  <Link href="https://drive.google.com/file/d/18pvzN2f6BwIEa-X7Gxn-a5bVi-c5ms1c/view" target="_blank" className="flex items-center gap-3 text-gray-300 hover:text-white transition">
+                    <FileText size={18} color="blue" /> Resume
                   </Link>
                 </li>
               </ul>
