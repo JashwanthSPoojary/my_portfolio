@@ -30,13 +30,9 @@ export default function Home() {
         <span className="font-semibold text-[#00BFFF]">
           learning the art of building full stack applications
         </span>
-        . I love working on projects that add value instead of wasting time, and
-        I&apos;m always pushing my boundaries to learn new skills and gain knowledge.
-        I&apos;m pursuing an undergraduate program in
-        <span className="italic">
-          B.Voc Software and Application Development
-        </span>{" "}
-        at SDMC, Ujire, Mangaluru.
+        . Using the internet to best of my capabilities to leverage the best of me even if it's a pool of distraction. 
+         Being a person who wants to be best, keeping improving and learning, chasing his dreams and being a better person.
+        
       </motion.p>
 
       {/* CTA Buttons */}
