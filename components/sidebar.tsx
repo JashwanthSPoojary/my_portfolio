@@ -90,7 +90,7 @@ export default function Sidebar() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="https://drive.google.com/file/d/1RVsMod7l9xN_sGC-k9bEr9Ro_rmRmQkH/view" target="_blank" className="flex items-center gap-3 text-gray-300 hover:text-white transition">
+                  <Link href="https://drive.google.com/file/d/15ZcZ8dOhwSSU6rJNLkVSIQL4KbDib2lj/view" target="_blank" className="flex items-center gap-3 text-gray-300 hover:text-white transition">
                     <FileText size={18} color="blue" /> Resume
                   </Link>
                 </li>
