@@ -4,29 +4,30 @@ import { ExternalLink, Github } from "lucide-react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 
-// Sample project data
 const personalProjects = [
   {
     id: 1,
-    title: "InterivewAI : Resume based interview",
+    title: "Vexl: Vercel clone for hosting React apps",
     description:
-      "upload your resume based on it ai forms questions to create a interview .",
+      "A Vercel-inspired platform to deploy React apps directly from GitHub. Features GitHub login, project import, automatic builds with logs, and static file hosting through CDN. Built using a multi-service architecture.",
     tags: [
-      "React",
-      "PostgresSQL",
-      "Node JS",
+      "Next.js",
+      "Node.js",
+      "Redis",
+      "PostgreSQL",
+      "BullMq",
       "Prisma",
+      "Docker",
       "Tailwind CSS",
-      "Zustand",
     ],
-    githubUrl: "https://github.com/JashwanthSPoojary/Ai-Interview-simulation",
-    liveUrl: "https://interviewai.jashwanth.me",
+    githubUrl: "https://github.com/JashwanthSPoojary/Vexl",
+    liveUrl: "https://vexl.live",
   },
   {
     id: 2,
     title: "Buzznet: Real time communication platform",
     description:
-      "A community social media application application like slack or discord built this project to learn full stack skills has group chat , dms , ai assistant chatbot , file uploading , video call and much more.",
+      "A community social media application like Slack or Discord. Built this to learn full stack skills — features include group chat, DMs, AI chatbot, file uploads, video calls, and more.",
     tags: [
       "React",
       "PostgresSQL",
@@ -42,12 +43,29 @@ const personalProjects = [
     id: 3,
     title: "VideoAno : Youtube annotation platform",
     description:
-      "Let you text annotate the particular youtube video on particalar timestamp was my first project built using the next js. has dashboard to check the your annotation videoa and share.",
+      "Lets you add text annotations to specific timestamps of YouTube videos. Includes a dashboard to manage and share your annotated videos. My first project using Next.js.",
     tags: ["Next JS", "PostgresSQL", "Shadcn UI", "Prisma", "Tailwind CSS"],
     githubUrl: "https://github.com/JashwanthSPoojary/video-annotation-platform",
     liveUrl: "https://videoano.jashwanth.me",
   },
+  {
+    id: 4,
+    title: "InterivewAI : Resume based interview",
+    description:
+      "Upload your resume and let AI generate interview questions tailored to it.",
+    tags: [
+      "React",
+      "PostgresSQL",
+      "Node JS",
+      "Prisma",
+      "Tailwind CSS",
+      "Zustand",
+    ],
+    githubUrl: "https://github.com/JashwanthSPoojary/Ai-Interview-simulation",
+    liveUrl: "https://interviewai.jashwanth.me",
+  },
 ];
+
 
 const practiceProjects = [
   {
