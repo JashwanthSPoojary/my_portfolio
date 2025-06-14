@@ -36,7 +36,7 @@ const personalProjects = [
       "Tailwind CSS",
       "Zustand",
     ],
-    githubUrl: "https://github.com/JashwanthSPoojary/my_buzznet",
+    githubUrl: "https://github.com/JashwanthSPoojary/buzznet_frontend",
     liveUrl: "https://buzznet.me",
   },
   {
@@ -62,7 +62,7 @@ const personalProjects = [
       "Zustand",
     ],
     githubUrl: "https://github.com/JashwanthSPoojary/Ai-Interview-simulation",
-    liveUrl: "https://interviewai.jashwanth.me",
+    liveUrl: "https://aiinterview.jashwanth.me",
   },
 ];
 
